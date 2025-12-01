@@ -1,0 +1,30 @@
+# PyTorch + CUDA (권장: CUDA 12.1)
+torch==2.1.0+cu121
+torchvision==0.16.0+cu121
+torchaudio==2.1.0+cu121
+
+# Transformers (ViT, AutoModelForImageClassification)
+transformers==4.42.0
+
+# Diffusers (get_cosine_schedule_with_warmup)
+diffusers==0.20.0
+
+# Ultralytics YOLO
+ultralytics==8.0.148
+
+# Image processing
+Pillow==10.0.1
+opencv-python==4.8.1.78
+
+# Data handling
+numpy==1.26.0
+scipy==1.11.1
+scikit-learn==1.3.2
+
+# Plotting
+matplotlib==3.8.1
+seaborn==0.13.3
+tqdm==4.68.0
+
+# Optional for AMP / mixed precision (torch.cuda.amp included in PyTorch >=1.6)
+# glob, os, shutil, random, contextlib 등은 표준 라이브러리이므로 별도 설치 불필요
