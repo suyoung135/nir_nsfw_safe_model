@@ -26,5 +26,6 @@
 ```bash
 pip install -r requirements.txt
 
+---
 ## 🔹 추가 사항
 현재 train.py에는 ./model 폴더 생성 및 학습 완료된 checkpoint 파일을 .pt 파일로 저장하는 코드가 기본으로 적혀있습니다.
